@@ -25,13 +25,14 @@ public class CD1 {
         System.out.println("numeros aleatorios");
         //experimento
 
-        Random e=new Random(10);
+        Random e=new Random();
         for (int n=0; n<10;n++){
-            if (e.nextInt()>=5){
-            System.out.println("Pruebas GIT");
+            int num=e.nextInt(10);
+            if (num>=5){
+            System.out.println("Pruebas GIT "+num);
             }
             else{
-            System.out.println("Hola mundo");
+            System.out.println("Hola mundo "+num);
             }
         }
         //Conflicto
