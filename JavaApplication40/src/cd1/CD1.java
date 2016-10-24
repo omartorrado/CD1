@@ -19,7 +19,8 @@ public class CD1 {
     //https://github.com/omartorrado/CD1.git
     public static void main(String[] args) {
         //comentario1
-Scanner sc1=new Scanner(System.in);
+        Scanner sc1=new Scanner(System.in);
+        System.out.println("Escribe un numero menor que 2\no no");
         int i=sc1.nextInt();
         if (i>2){
         System.out.println("Pruebas GIT");
