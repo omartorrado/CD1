@@ -16,6 +16,7 @@ public class CD1 {
      */
     //https://github.com/omartorrado/CD1.git
     public static void main(String[] args) {
+        System.out.println("Pruebas GIT");
         System.out.println("Hola mundo");
         //Conflicto
        //Comentario
