@@ -5,7 +5,6 @@
  */
 package cd1;
 
-import static java.lang.Math.random;
 import java.util.Random;
 import java.util.Scanner;
 
