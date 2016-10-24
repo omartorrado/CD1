@@ -5,6 +5,8 @@
  */
 package cd1;
 
+import static java.lang.Math.random;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -20,13 +22,18 @@ public class CD1 {
     public static void main(String[] args) {
         //comentario1
         Scanner sc1=new Scanner(System.in);
-        System.out.println("Escribe un numero menor que 2\no no");
-        int i=sc1.nextInt();
-        if (i>2){
-        System.out.println("Pruebas GIT");
-        }
-        else{
-        System.out.println("Hola mundo");
+        System.out.println("numeros aleatorios");
+        //experimento
+
+        Random e=new Random();
+        for (int n=0; n<10;n++){
+            int num=e.nextInt(10);
+            if (num>=5){
+            System.out.println("Pruebas GIT "+num);
+            }
+            else{
+            System.out.println("Hola mundo "+num);
+            }
         }
         //Conflicto
        //Comentario
